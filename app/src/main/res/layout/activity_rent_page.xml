@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RentPage">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:srcCompat="@drawable/menu1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:text="Track Wheels"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="856dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="57dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="359dp"
+                android:layout_height="263dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp"
+                android:backgroundTint="#3838FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/scorpionbg12"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter"
+                                android:text="MAHINDRA"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter_bold"
+                                android:text="Scorpio N"
+                                android:textColor="#FFFFFF"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/RentCar1"
+                            android:layout_width="117dp"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="65dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_round_white_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/inter_bold"
+                            android:gravity="center"
+                            android:text="Click here"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+<!--            2nd one-->
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:layout_width="359dp"
+                android:layout_height="263dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp"
+                android:backgroundTint="#3838FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/scorpionbg12"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter"
+                                android:text="MAHINDRA"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter_bold"
+                                android:text="Scorpio N"
+                                android:textColor="#FFFFFF"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="117dp"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="65dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_round_white_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/inter_bold"
+                            android:gravity="center"
+                            android:text="Click here"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+<!--            3rd -->
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                android:layout_width="359dp"
+                android:layout_height="263dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp"
+                android:backgroundTint="#3838FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/scorpionbg12"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter"
+                                android:text="MAHINDRA"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter_bold"
+                                android:text="Scorpio N"
+                                android:textColor="#FFFFFF"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="117dp"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="65dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_round_white_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/inter_bold"
+                            android:gravity="center"
+                            android:text="Click here"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+<!--            4th one-->
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:layout_width="359dp"
+                android:layout_height="263dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp"
+                android:backgroundTint="#3838FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/scorpionbg12"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter"
+                                android:text="MAHINDRA"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter_bold"
+                                android:text="Scorpio N"
+                                android:textColor="#FFFFFF"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="117dp"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="65dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_round_white_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/inter_bold"
+                            android:gravity="center"
+                            android:text="Click here"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+<!--            5th one-->
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:layout_width="359dp"
+                android:layout_height="263dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp"
+                android:backgroundTint="#3838FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/scorpionbg12"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter"
+                                android:text="MAHINDRA"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter_bold"
+                                android:text="Scorpio N"
+                                android:textColor="#FFFFFF"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="117dp"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="65dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_round_white_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/inter_bold"
+                            android:gravity="center"
+                            android:text="Click here"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+<!--            6th one-->
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:layout_width="359dp"
+                android:layout_height="263dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp"
+                android:backgroundTint="#3838FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/scorpionbg12"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter"
+                                android:text="MAHINDRA"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter_bold"
+                                android:text="Scorpio N"
+                                android:textColor="#FFFFFF"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="15dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="117dp"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="65dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_round_white_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/inter_bold"
+                            android:gravity="center"
+                            android:text="Click here"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

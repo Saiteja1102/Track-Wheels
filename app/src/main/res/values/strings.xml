@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrackWheels</string>
+    <string name="already_have_account">Already have Account? <u><font color="#1E88E5">Login</font></u></string>
+
+</resources>
